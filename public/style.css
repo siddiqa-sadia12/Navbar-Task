@@ -65,7 +65,7 @@ nav .checkbox i {
   cursor: pointer;
 }
 
-ul {
+.nav-list{
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -88,6 +88,17 @@ ul li a:hover {
   color: var(--primary-color-dark);
 }
 
+/* footer container */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  max-width: 1320px;
+}
+.footer-link {
+  /* display: flex; */
+
+}
 
 @media (width < 750px) {
   nav .checkbox {

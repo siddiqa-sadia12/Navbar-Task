@@ -18,5 +18,7 @@ use App\Http\Controllers\AuthenticationController;
 
 Route::get('/',[AuthenticationController::class,'index']);
 Route::get('/login',[AuthenticationController::class,'login']);
+Route::get('/register',[AuthenticationController::class,'register']);
+Route::post('/login',[AuthenticationController::class,'registration']);
 
 

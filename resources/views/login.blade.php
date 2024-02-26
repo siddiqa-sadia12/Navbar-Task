@@ -13,13 +13,15 @@
         <div class="login-header">
         
         <img src="{{ url('header_logo.png') }}" alt="University Logo">
-        
-        <p>Sign in with your organizational ID Number</p>
-        
+        <div class="d-flex justify-content-center">
+            <a href="https://uttarauniversity.edu.bd" class="logo d-flex align-items-center w-auto font-weight-bold font-size-15" style="color: #1D45B5 ">UTTARA UNIVERSITY</a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="font-weight-bold base-color font-size-11"><i class="bi bi-info-circle-fill"></i> Sign in with your organizational ID number</p>
+        </div>    
         </div>
         
         <form class="login-form">
-        
         <div class="input-group">
         
         <!-- <label for="user-id">User ID</label> -->
@@ -40,12 +42,9 @@
         
         </form>
         
-        <div class="login-footer">
-        
-        <a href="#">Forgot your password? Click here</a>
-        
-        <a href="#">Visit Uttara University Official Website</a>
-        
+        <div class="login-footer mt-5">
+            <p>New User? <a class="mt-5" href="{{url('/register')}}">Create New Account</a></p>
+            <p>Visit Uttara University <a class="mt-5" href="">Official website</a></p>
         </div>
         
         </div>

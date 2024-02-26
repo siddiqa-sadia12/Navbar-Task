@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="/images/header_logo.png" />
     <title>Login</title>
-    <link rel="stylesheet" href="ERP.css">
+    <link rel="stylesheet" type="text/css" href="{{ url('login.css') }}" />
 </head>
 <body>
     <div class="login-container">
 
         <div class="login-header">
         
-        <img src="/images/header_logo.png" alt="University Logo">
+        <img src="{{ url('header_logo.png') }}" alt="University Logo">
         
         <p>Sign in with your organizational ID Number</p>
         
